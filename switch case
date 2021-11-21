@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int number;
+    printf("Enter number(1-100): ");
+    scanf("%d", &number);
+
+    switch(number)
+    {
+        case 1: 
+            printf("the number is 2");
+            break;
+        case 2: 
+            printf("the number is 10");
+            break;
+        case 3: 
+            printf("the number is 50");
+            break;
+        case 4: 
+            printf("the number is 19");
+            break;
+      default: 
+            printf("Invalid input! ");
+
+    }
+
+    return 0;
+}
